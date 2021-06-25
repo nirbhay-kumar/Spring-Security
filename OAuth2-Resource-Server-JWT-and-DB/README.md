@@ -61,13 +61,12 @@
                 |  7 |             5 |       2 |
                 +----+---------------+---------+
                 7 rows in set (0.00 sec)
-4. CURL:
-```command
+4. **CURL:**
+```JSON
   curl -X POST \
   http://localhost:9090/oauth/token \
   -H 'authorization: Basic dGFsazJhbWFyZXN3YXJhbjp0YWxrMmFtYXJlc3dhcmFuQDEyMw==' \
   -H 'cache-control: no-cache' \
   -H 'content-type: application/x-www-form-urlencoded' \
-  -H 'postman-token: 431b5451-8e51-8037-9df4-642b0b208cb6' \
   -d 'grant_type=password&password=password&username=mike%40gmail.com'
   ```
