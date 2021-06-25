@@ -1,12 +1,18 @@
+server:
+  port: 9090
+
+
 spring:
     application:
         name: authserver
         
     datasource:
         driverClassName: com.mysql.cj.jdbc.Driver
-        url: "jdbc:mysql://35.226.143.212/USERSERVICE?autoreconnect=true"
-        password: "root"
+        #url: "jdbc:mysql://35.226.143.212/USERSERVICE?autoreconnect=true"
+        url: "jdbc:mysql://userservice.ck6tkrmiljhm.us-east-2.rds.amazonaws.com:3306/USERSERVICE?autoreconnect=true"
         username: "root"
+        password: "password"
+        
 
 config:
     oauth2:
