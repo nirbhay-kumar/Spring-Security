@@ -1,5 +1,8 @@
-# Spring-Boot-2.1-OAuth2-Authorization-Server-and-Resource-Server-JWT-and-MySQL
-Spring Boot 2.1 OAuth2 Authorization Server and Resource Server JWT and MySQL
+## Spring-Boot-2.1-OAuth2-Authorization-Server-and-Resource-Server-JWT-and-MySQL
 
-
-Youtube video link - https://youtu.be/l9chhjL7Kuk
+### Step to create Database
+1. Create MySQL Database on AWS RDS.
+2. Open **CloudShell**<br>
+    [cloudshell-user@ip-10-0-35-48 ~]$ mysql -h userservice.ck6tkrmiljhm.us-east-2.rds.amazonaws.com -P 3306 -u root -p 
+3. All script given in SQL-SCRIPT.txt
+    
