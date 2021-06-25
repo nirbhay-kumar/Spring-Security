@@ -62,8 +62,8 @@
                 +----+---------------+---------+
                 7 rows in set (0.00 sec)
 4. CURL:
-5. ```CURL
-6. curl -X POST \
+```CURL
+  curl -X POST \
   http://localhost:9090/oauth/token \
   -H 'authorization: Basic dGFsazJhbWFyZXN3YXJhbjp0YWxrMmFtYXJlc3dhcmFuQDEyMw==' \
   -H 'cache-control: no-cache' \
