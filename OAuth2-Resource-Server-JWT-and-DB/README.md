@@ -7,6 +7,7 @@
 2. Open **CloudShell**<br>
     [cloudshell-user@ip-10-0-35-48 ~]$ mysql -h userservice.ck6tkrmiljhm.us-east-2.rds.amazonaws.com -P 3306 -u root -p 
 3. All script given in SQL-SCRIPT.txt
+                
                 MySQL [USERSERVICE]> select * from USER;
                 +----+------+----------------+--------------------------------------------------------------+
                 | ID | NAME | EMAIL_ID       | PASSWORD                                                     |
