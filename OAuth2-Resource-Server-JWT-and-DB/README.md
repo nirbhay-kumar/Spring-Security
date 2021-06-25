@@ -70,3 +70,17 @@
   -H 'content-type: application/x-www-form-urlencoded' \
   -d 'grant_type=password&password=password&username=mike%40gmail.com'
   ```
+
+```JSON
+{
+    "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJtaWtlQGdtYWlsLmNvbSIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJuYW1lIjoiTWlrZSIsImlkIjoiMiIsImV4cCI6MTYyNDYyOTI2MCwidXNlck5hbWUiOiJtaWtlQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjpbIlJPTEVfVklFV19OT1RFIiwiUk9MRV9WSUVXX0FMTF9OT1RFIl0sImp0aSI6IjU1YjZjMTJhLTdkMmUtNDE4Ni1hZTQ1LTU0ZjdmZGJlOTg3NCIsImNsaWVudF9pZCI6InRhbGsyYW1hcmVzd2FyYW4ifQ.CXDZ6oq97AfA9e3j_XKn4EWm4GIpkqP7Eq5TxVUNw_4-pED0T5aljLyh7ILWtKoxEnVUYT6RYmxLzewELsujSZhDQW4oCn9qYqpkRS_Eo8kK_jLQWLI8pDWLq3IqdPqnIaGxrsuu2uriSBjGGQjBy2O6g100T-gSWaqYOcm16TaEFKcohCBQpk_FCXXrF-QFbJiShmR0U7z7bXM7ZDzoT81FBHkmX438ohti1Vu-mY9syB2LG-FRo9ckwADGSUmdDAREYvaLwF7RMT455xFWEy1JKrwFfREXOlyFoCO-g5muS_G1gBpHpWIYLvRjIbZRBmLPAeI6NbblBPEuTfwKeA",
+    "token_type": "bearer",
+    "refresh_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJtaWtlQGdtYWlsLmNvbSIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJhdGkiOiI1NWI2YzEyYS03ZDJlLTQxODYtYWU0NS01NGY3ZmRiZTk4NzQiLCJuYW1lIjoiTWlrZSIsImlkIjoiMiIsImV4cCI6MTYyNDY0MzY2MCwidXNlck5hbWUiOiJtaWtlQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjpbIlJPTEVfVklFV19OT1RFIiwiUk9MRV9WSUVXX0FMTF9OT1RFIl0sImp0aSI6IjNhODdmYTdjLTcwY2ItNDRlZi05NDExLTQ5ZmE2NGY2YjNiZCIsImNsaWVudF9pZCI6InRhbGsyYW1hcmVzd2FyYW4ifQ.Q7x9ka2hoi4TLvpzENykBO5UIk5DOWAHzeFkjwE-lyREKsac8lkIVsoGKthxpu_30OZJ7V66C93GccPLLL8OgvqBSfQEjMd3sp_URlB5WAmKztAHzd0_Znbvby7HEri1Eb3WIVNNnPaFNkVuarGdF5adr9zgY1HydG6mJXMmt68HEPpg2HYv19wPSeKM30bRuC5GTtMN2pV_AqPrLUOu1ZlPssxOs2opiipbKbT-V3VwUsEMTCs4NPPp4NInQhEhmh6hxkVRni0RwCjiNnxNcSXL8Y9yCvkTwwOApyuIrtNTNhKaxFcCHL68lHAD7quMvEfNtJrdwWFRprT25gH8yg",
+    "expires_in": 3599,
+    "scope": "read write",
+    "id": "2",
+    "name": "Mike",
+    "userName": "mike@gmail.com",
+    "jti": "55b6c12a-7d2e-4186-ae45-54f7fdbe9874"
+}
+```
