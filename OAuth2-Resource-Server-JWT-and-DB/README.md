@@ -61,5 +61,4 @@
                 |  7 |             5 |       2 |
                 +----+---------------+---------+
                 7 rows in set (0.00 sec)
-4. CURL:
-                gggg
+4. https://localhost:9090/oauth/token
