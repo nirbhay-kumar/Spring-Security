@@ -4,5 +4,5 @@
 1. Create MySQL Database on AWS RDS.
 2. Open **CloudShell**<br>
     [cloudshell-user@ip-10-0-35-48 ~]$ mysql -h userservice.ck6tkrmiljhm.us-east-2.rds.amazonaws.com -P 3306 -u root -p 
-3. 
+3. All script given in SQL-SCRIPT.txt
     
