@@ -62,7 +62,7 @@
                 +----+---------------+---------+
                 7 rows in set (0.00 sec)
 4. **CURL:**
-```SSH
+```curl
   curl -X POST \
   http://localhost:9090/oauth/token \
   -H 'authorization: Basic dGFsazJhbWFyZXN3YXJhbjp0YWxrMmFtYXJlc3dhcmFuQDEyMw==' \
@@ -71,7 +71,7 @@
   -d 'grant_type=password&password=password&username=mike%40gmail.com'
   ```
 
-```JSON
+```json
 {
     "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJtaWtlQGdtYWlsLmNvbSIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJuYW1lIjoiTWlrZSIsImlkIjoiMiIsImV4cCI6MTYyNDYyOTI2MCwidXNlck5hbWUiOiJtaWtlQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjpbIlJPTEVfVklFV19OT1RFIiwiUk9MRV9WSUVXX0FMTF9OT1RFIl0sImp0aSI6IjU1YjZjMTJhLTdkMmUtNDE4Ni1hZTQ1LTU0ZjdmZGJlOTg3NCIsImNsaWVudF9pZCI6InRhbGsyYW1hcmVzd2FyYW4ifQ.CXDZ6oq97AfA9e3j_XKn4EWm4GIpkqP7Eq5TxVUNw_4-pED0T5aljLyh7ILWtKoxEnVUYT6RYmxLzewELsujSZhDQW4oCn9qYqpkRS_Eo8kK_jLQWLI8pDWLq3IqdPqnIaGxrsuu2uriSBjGGQjBy2O6g100T-gSWaqYOcm16TaEFKcohCBQpk_FCXXrF-QFbJiShmR0U7z7bXM7ZDzoT81FBHkmX438ohti1Vu-mY9syB2LG-FRo9ckwADGSUmdDAREYvaLwF7RMT455xFWEy1JKrwFfREXOlyFoCO-g5muS_G1gBpHpWIYLvRjIbZRBmLPAeI6NbblBPEuTfwKeA",
     "token_type": "bearer",
