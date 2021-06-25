@@ -1,7 +1,7 @@
 ## Spring Security
-### 1. OAuth2-Resource-Server-JWT-and-DB
-####      authserver
-####      resourceserver
+### 1. OAuth2-Resource-Server-JWT-and-D
+    * authserver
+    * resourceserver
 
 
 
