@@ -2,7 +2,7 @@
 
 [Youtube video link](https://youtu.be/l9chhjL7Kuk)
 
-### Step to create Database
+### Step to create Database (authserver)
 1. Create MySQL Database on AWS RDS.
 2. Open **CloudShell**<br>
     [cloudshell-user@ip-10-0-35-48 ~]$ mysql -h userservice.ck6tkrmiljhm.us-east-2.rds.amazonaws.com -P 3306 -u root -p 
@@ -84,3 +84,12 @@
     "jti": "55b6c12a-7d2e-4186-ae45-54f7fdbe9874"
 }
 ```
+
+### Tesr Resourceserver:
+
+        curl -X POST http://localhost:9191/note -H 'authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJqb2huQGdtYWlsLmNvbSIsInNjb3BlIjpbInJlYWQiLCJ3cml0ZSJdLCJuYW1lIjoiSm9obiIsImlkIjoiMSIsImV4cCI6MTYyNDYzMjYwOSwidXNlck5hbWUiOiJqb2huQGdtYWlsLmNvbSIsImF1dGhvcml0aWVzIjpbIlJPTEVfQ1JFQVRFX05PVEUiLCJST0xFX1ZJRVdfTk9URSIsIlJPTEVfRURJVF9OT1RFIiwiUk9MRV9ERUxFVEVfTk9URSIsIlJPTEVfVklFV19BTExfTk9URSJdLCJqdGkiOiI5MzM0MmJmNC04NjBmLTQ1ODYtYTQyYS04MThiYTU4ZWVlMDciLCJjbGllbnRfaWQiOiJ0YWxrMmFtYXJlc3dhcmFuIn0.E2gs9t3ni1x-nBjdQo0J_zSS2C5cVzEi182ri8wYNy3zrD42BKrYxN53zpGEIy48hzGd0R3ZPzSyyo6pk3oqOTkU3MX4JbESimhsumTRXYf-Ed695EBf65XDUVyW9sRkxFJlpR35qSWJGkCtnfujdUuc8qyaF0y4KmWHG6ffSoVILl41kSm2Ral1kwtLakg0XbbLegi0f1tEvsaDlDWk3sSCOwZMsCkjtjjok9S4sowKvEOYljOXwVSb6Mi--EtCYB0fupc6Olv57VzyJVtkl_8I-yozMOoz0kODVWCq1_o-uiEX6mVYjmX_DWpxbpeq8AMLP0aoSmCriDB0ZUw_8A'
+
+        curl -X GET http://localhost:9191/note
+        curl -X PUT http://localhost:9191/note
+        curl -X DELETE http://localhost:9191/note
+        curl -X GET http://localhost:9191/noteById
